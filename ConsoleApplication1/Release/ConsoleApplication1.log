@@ -1,0 +1,27 @@
+﻿Build started 2015-06-15 오전 1:32:44.
+     1>Project "C:\Users\PJY\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Scene3.cpp
+         Scene3.cpp
+     1>c:\users\pjy\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\Vec.h(16): warning C4172: returning address of local variable or temporary
+     1>Scene3.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(201): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(214): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(238): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(314): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(326): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(549): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(566): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene3.cpp(567): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PJY\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PJY\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PJY\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Release\ConsoleApplication1.lib" /MACHINE:X86 /SAFESEH /safeseh:no Release\Scene3.obj
+         Generating code
+         Finished generating code
+         ConsoleApplication1.vcxproj -> C:\Users\PJY\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Release\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\PJY\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66
